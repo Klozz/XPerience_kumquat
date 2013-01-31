@@ -58,6 +58,8 @@ persist.audio.hp=true
 
 ro.service.swiqi.supported=false
 persist.service.swiqi.enable=0
+ro.service.swiqi2.supported=false
+persist.service.swiqi2.enable=1
 
 #Force To Remain Launcher In Memory
 ro.HOME_APP_ADJ=1
