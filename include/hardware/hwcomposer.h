@@ -56,7 +56,7 @@ enum {
      * that it should triple buffer this layer. Typically HWC does this when
      * the layer will be unavailable for use for an extended period of time,
      * e.g. if the display will be fetching data directly from the layer and
-     * the layer can not be modified until after the next set().
+     * the layer can not be modified until after the next set(). 
      */
     HWC_HINT_TRIPLE_BUFFER  = 0x00000001,
 
