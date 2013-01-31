@@ -2,7 +2,7 @@
 
 on init
     export ANDROID_CACHE /cache
-
+#dalvick-cache
 on post-fs-data
     mkdir /cache/dalvik-cache 0771 system system
     chown system system /cache/dalvik-cache
